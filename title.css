@@ -1,0 +1,108 @@
+.title__wrapper {
+  display: flex;
+}
+
+.title__box {
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+  width: 770px;
+  margin-right: 130px;
+}
+.title__heading {
+  width: 744px;
+  font-size: 50px;
+  font-family: "Sarabun", sans-serif;
+  font-weight: 700;
+  margin-top: 120px;
+  margin-bottom: 20px;
+}
+.title__text {
+  width: 807px;
+  font-family: "Sarabun", sans-serif;
+  font-size: 18px;
+  line-height: 40px;
+  margin-bottom: 5px;
+}
+.title__phrase {
+  color: #4461f2;
+  font-family: "Sarabun", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+.title__image-human {
+  width: 558px;
+  margin-bottom: 144px;
+}
+
+.title__sing-in {
+  font-size: 25px;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  display: inline-block;
+  margin-bottom: 35px;
+  margin-top: 171px;
+}
+.title__form {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  position: relative;
+}
+.title__input {
+  color: #383838;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.15px;
+  border-radius: 8px;
+  border: 1px solid #e0e0e9;
+  background: #f9f9f9;
+  box-shadow: 0px 18px 30px 0px rgba(68, 97, 242, 0.11);
+  width: 400px;
+  padding: 16px 12px;
+}
+.title__image-eye {
+  width: 25.656px;
+  color: rgba(148, 155, 165, 1);
+  position: absolute;
+  top: 87px;
+  right: 21px;
+}
+.title__mark {
+  color: #6c737f;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  width: 400px;
+  text-align: right;
+}
+.title__button {
+  border-radius: 10px;
+  border: 1px solid #e0e0e9;
+  padding: 18px 0;
+  background: #4461f2;
+  box-shadow: 0px 18px 30px 0px rgba(68, 97, 242, 0.11);
+  color: #fff;
+  width: 400px;
+}
+.title__span {
+  color: #6c737f;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  width: 400px;
+  text-align: center;
+}
+.title__image-wrapper {
+  display: flex;
+  width: 400px;
+  justify-content: space-evenly;
+}
+.title__image {
+  padding: 19px 17px;
+  width: 61px;
+  border-radius: 15px;
+  border: 1px solid #e0e0e9;
+  background: #fff;
+  box-shadow: 0px 18px 30px 0px rgba(68, 97, 242, 0.11);
+}
