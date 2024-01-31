@@ -20,6 +20,11 @@ body {
   font-size: 20px;
   font-family: "Inter", sans-serif;
 }
+.header__button:hover {
+  background-color: #feb352;
+  color: #fff;
+  border-radius: 10px;
+}
 .header__button_style-sing {
   font-weight: 700;
   border: none;
