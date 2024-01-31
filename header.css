@@ -1,0 +1,33 @@
+body {
+  background: #f0f4fc;
+}
+.header__nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 20px;
+}
+.header__nav-item {
+  border: none;
+  background: #f0f4fc;
+}
+.header__option {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+}
+.header__button {
+  color: #4461f2;
+  font-size: 20px;
+  font-family: "Inter", sans-serif;
+}
+.header__button_style-sing {
+  font-weight: 700;
+  border: none;
+}
+.header__button_style-register {
+  padding: 13px 23px;
+  border-radius: 15px;
+  border: 1px solid #e0e0e9;
+  background: #fff;
+  box-shadow: 0px 18px 30px 0px rgba(68, 97, 242, 0.11);
+}

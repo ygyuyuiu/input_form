@@ -4,7 +4,58 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>input_form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Kanit:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Kanit:wght@400;500;600;700;800&family=Sarabun:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="header.css" />
   </head>
-  <body></body>
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav class="header__nav">
+          <select class="header__nav-item" name="lang">
+            <option class="header__option" value="English">English</option>
+            <option class="header__option" value="Russia">Russia</option>
+          </select>
+
+          <form
+            action="https://www.google.ru/?hl=ru"
+            class="header__form"
+          ></form>
+
+          <button
+            class="header__button header__button_style-sing"
+            type="submit"
+            name="sing_in"
+          >
+            Sign in
+          </button>
+
+          <button
+            class="header__button header__button_style-register"
+            type="submit"
+            name="register"
+          >
+            Register
+          </button>
+        </nav>
+      </div>
+    </header>
+  </body>
 </html>
